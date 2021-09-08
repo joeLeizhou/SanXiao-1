@@ -16,6 +16,7 @@ using Orcas.Game.Common;
 using Orcas.Graph.Core;
 using Orcas.Networking;
 using Orcas.Resources;
+using SanXiao.Game;
 using UnityEngine.SceneManagement;
 
 public class GameLauncher : MonoBehaviour
@@ -61,11 +62,12 @@ public class GameLauncher : MonoBehaviour
         GameManager.Instance.SetLooper(new GameLooper());
         _stateMachine = new StateMachine();
         StateFactory.Instance.AddState<GameStateInit>();
-
+        GameManager.Instance.AddManager<LuaStateManager>();
         StateFactory.Instance.AddState<GameStateLua>();
+        Debug.Log("ssss============ss");
         _stateMachine.ChangeState<GameStateInit>();
-        Debug.Log("ssssss");
 
+ 
     }
     
     // Update is called once per frame

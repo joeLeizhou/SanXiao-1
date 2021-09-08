@@ -1,5 +1,0 @@
-ID,HotVer,Size,ForceUpdate
-string,string,float,bool
-小版本号,热更的版本号(不热更填小版本号),热更大小(单位k),是否要强更
-0.0.0,0.0.2,0,0
-0.0.2,0.0.2,0,0

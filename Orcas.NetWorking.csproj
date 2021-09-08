@@ -1,0 +1,1290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{4201cad0-ea89-1bb7-3b02-5150f96da3a9}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Orcas.NetWorking</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_15;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;Core;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn></NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn></NoWarn>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\TimeUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\fec\InputOutputByteBufTableCodingLoop.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\SingleThreadEventExecutor.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Protos\ReqHeartBeat.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\ReadOnlyByteBufferStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Pool\IChannelPoolHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\IScheduledExecutorService.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\User.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\IDeque.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\IPoolArenaMetric.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Json\JsonObjectDecoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Encryption\AES\AESEncryptor.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Channel\Selector.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\IAttribute.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Local\LocalChannelRegistry.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\ITimeout.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Protos\ProtoConfig.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\KcpListener.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IChannelConfiguration.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ServerConfiguration\HttpDecode\IResponseData.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\StringCharSequence.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\RunnableScheduledTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Tar\TarHeader.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\code\IDistributeManager.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\Compression\Streams\DeflaterOutputStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\ZipEncryptionMethod.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\ClosedChannelException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\MessageAggregator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\PooledSlicedByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\DefaultFileRegion.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\IReferenceCounted.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\ITimer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\IScheduledRunnable.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\KcpClient.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Pool\FixedChannelPool.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\ScheduledAsyncTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\WindowsNameTransform.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\Signal.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\IEventExecutor.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Protos\ReqTestSpeed.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Core\Exceptions\StreamUnsupportedException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Protobuf\ProtobufVarint32FrameDecoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\LengthFieldPrepender.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\ByteBufferUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\ChannelException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\NotYetConnectedException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Tar\TarExtendedHeaderReader.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\ExecutorTaskScheduler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Local\LocalAddress.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Tar\TarException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\AdvancedLeakAwareCompositeByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\ReadTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\StaticTree.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\SingleThreadEventLoop.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\Logging\GenericLogger.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\thread\ExecutorPool.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\AbstractSocketChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\GZip\GZip.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\NetworkResourcePath.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\AbstractSocketMessageChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\MessageAggregationException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\PoolSubpage.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\SpscLinkedQueue.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\Compression\DeflaterEngine.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\IEventExecutorGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Groups\DefaultChannelGroupCompletionSource.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Bootstrapping\ServerBootstrap.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\PriorityQueue.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\Logging\EventSourceLogger.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\PendingWriteQueue.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\SkipAttribute.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\Compression\Inflater.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\fec\FecExpansion.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Streams\ChunkedStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\StateActionScheduledTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Core\IScanFilter.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\ActionTimerTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IMessageSizeEstimatorHandle.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Tar\TarOutputStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\BZip2\BZip2OutputStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Base64\Base64Decoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\IPoolChunkListMetric.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Tcp\TcpClient.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\AbstractExecutorService.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\GZip\GZipException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\AbstractScheduledEventExecutor.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\CodecOutputList.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\ZlibWrapper.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\PoolArena.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Pool\ChannelActiveHealthChecker.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\WrappedByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Core\InvalidNameException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Interface\IClient.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\HeapByteBufferUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\thread\IMessageExecutor.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Protos\RltHeartBeat.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Protos\LuaProtoCreator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\AbstractConstant.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\Compression\DeflaterConstants.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\BatchingPendingWriteQueue.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\Compression\Streams\InflaterInputStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\thread\IExecutorPool.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\EmptyByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\ICallable`T.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\HashedWheelTimer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Tcp\TcpMockClient.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Protos\LuaTypeCode.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\CompositeByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Protos\ResultProtocol\RltLuaMessage.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\ConnectException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\ChannelPipelineException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\DefaultChannelConfiguration.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Base64\Base64Dialect.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\Inflater.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\Compression\InflaterDynHeader.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Delimiters.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\KcpClient.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Core\Exceptions\ValueOutOfRangeException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Core\Exceptions\SharpZipBaseException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\ResourceLeakDetector.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\ChannelOption.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Groups\IChannelMatcher.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\DefaultChannelId.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\code\IProtoDecodeEncode.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Bootstrapping\INameResolver.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IChannelHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\Ukcp.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IEventLoop.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Lzw\LzwException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Encryption\ITCPEncryptor.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\IPoolSubpageMetric.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\fec\FecDecode.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Groups\CombinedEnumerator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\IHeaders.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\TcpServer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ServerConfiguration\APIInfo.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Bootstrapping\Bootstrap.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\DatagramPacketDecoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Logging\LogLevel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\thread\IScheduleThread.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\IScheduledTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\ActionScheduledTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\Deflater.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Protos\RltTestSpeed.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\UnpooledHeapByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\MultithreadEventLoopGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\GameService.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Channel\Buffer2ProtosChannelHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\DefaultSocketChannelConfiguration.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Pool\IChannelPool.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\UnpooledDuplicatedByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\GameUntils.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\ByteToMessageDecoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Util.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\IResourceLeakHint.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\IValueConverter.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Protos\LuaProtoConfig_DataType.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Tar\TarInputStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\InfTree.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\LengthFieldBasedFrameDecoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\ZStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\ArrayExtensions.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\ConstantPool.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\Adler32.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\ReferenceCountUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\CRC32.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\CharSequenceValueConverter.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\ChannelOutboundBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\SocketChannelAsyncOperation.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\JZlib.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Encryption\ZipAESTransform.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\Unpooled.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\XThread.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\PooledHeapByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\ZipHelperStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Tls\TlsSettings.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\code\IHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\SocketSpeedTestHelper.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\DatagramPacket.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Tls\TlsHandshakeCompletionEvent.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\BZip2\BZip2InputStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ServerConfiguration\HttpDecode\DefaultDecoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\GZip\GzipOutputStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\Logging\DefaultEventSource.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Encryption\Default\DefaultEncryption.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\Logging\InternalLoggerFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\ICharSequence.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\ThreadLocalPool.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\ZipEntryFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Pool\AbstractChannelPoolMap.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\IHashingStrategy.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\IRunnable.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Tls\TlsHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Streams\IChunkedInput.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\BitOps.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\CorruptedFrameException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\TcpSocketChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\IServerSocketChannelConfiguration.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\IEntryFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\ZipFile.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\BZip2\BZip2Constants.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\DefaultHeaders.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\DefaultAddressedEnvelope.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\TaskCompletionSource.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\fec\ByteBufCodingLoopBase.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\AbstractServerChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\IScheduleTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\GameChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\KcpUntils.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\MediumUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ServerConfiguration\HttpDecode\DefaultResponseData.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\CharUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetClient\NetClient.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\MessageToByteEncoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\IQueue.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Channel\ProtoDistributeHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\MessageToMessageDecoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\AbstractChannelHandlerContext.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Timeout\WriteTimeoutHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Encryption\ZipAESStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Core\WindowsPathUtils.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ClientBase.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\IAttributeMap.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Groups\ChannelGroupException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\AdvancedLeakAwareByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Channel\ChannelHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\AbstractEventExecutor.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\MacAddressUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\ZipStrings.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\Compression\PendingBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\JZlibEncoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\UnpooledSlicedByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\EmptyArrays.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\ZipOutputStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Pool\CountingChannelPoolHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\INameValidator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\Inflate.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\ChannelConfig.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\SpeedTestChooseAddressStrategy.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\thread\AbstratcMessageExecutor.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\ByteProcessor.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\IChecksum.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\DefaultDatagramChannelConfig.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\SimpleLeakAwareByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Lzw\LzwInputStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\AbstractByteBufferAllocator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\PlatformDependent.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\thread\HashedWheelScheduleThread.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\KcpOutPutImp.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Core\PathFilter.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Protos\PropertyIndexAttribute.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\MessageToMessageEncoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\Crc32.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\StringBuilderCharSequence.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\DefaultMessageSizeEstimator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Pool\SimpleChannelPool.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\IGameHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\ReferenceEqualityComparer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\example-Kcp\KcpRttExampleClient.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Checksum\Adler32.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Tar\InvalidHeaderException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Core\FileSystemScanner.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\ZlibCodecFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\CompatibleConcurrentQueue.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Groups\IChannelGroupTaskCompletionSource.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\CodecException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IMaxMessagesRecvByteBufAllocator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\IByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\RefArrayAccessUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\AdaptiveRecvByteBufAllocator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Base64\Base64Encoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\BZip2\BZip2.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\TaskEx.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\Compression\Streams\StreamManipulator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\ZlibDecoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\DefaultMaxMessagesRecvByteBufAllocator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\ZlibEncoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\ChannelMetadata.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\AbstractReferenceCounted.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\RandomExtensions.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\code\TcpProtoDecode.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\HeadersUtils.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\ZipEntry.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Channel\Proto2BytesChannelHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\ScheduleTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\Compression\Streams\OutputWindow.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Logging\LoggingHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Tar\TarArchive.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Checksum\BZip2Crc.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\AbstractPooledDerivedByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Timeout\ReadTimeoutHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\DefaultChannelPipeline.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Core\NameFilter.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\ISocketChannelConfiguration.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ServerConfiguration\HttpServerBase.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Local\LocalChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\InfBlocks.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Timeout\IdleState.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Groups\ChannelMatchers.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\KcpOutput.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Groups\IChannelGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\DefaultPlatformImplementation.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\AppendableCharSequence.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\ClientChannelHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\Logging\EventSourceLoggerProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Timeout\TimeoutException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\TcpClient.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ProtocolFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\UnsafeByteBufferUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\code\TcpChannelHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\CharSequenceEnumerator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Timeout\ReadTimeoutException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Embedded\EmbeddedEventLoop.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\thread\ITask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\StringUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\IExecutorService.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Embedded\EmbeddedChannelId.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\StateActionWithContextScheduledAsyncTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ServerConfiguration\UrlInfo.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Channel\Channel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\DateFormatter.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\InternalThreadLocalMap.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\ConcurrentCircularArrayQueue.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\SimpleChannelInboundHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\DecompressionException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Local\LocalServerChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\FastThreadLocal.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\Tree.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Strings\StringDecoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\DelayPacket.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Http\HttpClient.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\SystemPropertyUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\code\TcpProtoEncode.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\RejectedExecutionException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\Platform.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Embedded\EmbeddedChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\ServerEndPointChannelManager.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Tar\TarEntry.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\ConnectTimeoutException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\BZip2\BZip2Exception.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Pool\IChannelHealthChecker.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\GZip\GZipConstants.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\CompressionException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\SocketDatagramChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Core\Exceptions\StreamDecodingException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\Logging\IInternalLogger.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\queue\MpscArrayQueue.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\MathUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\ZlibUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\ZipExtraData.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\TcpServerSocketChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\FastZip.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\ZipException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IMessageSizeEstimator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\ConnectionPendingException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\AbstractEventExecutorGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Core\Exceptions\UnexpectedEndOfStreamException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\AbstractDerivedByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\thread\ThreadMessageExecutor.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\fec\Fec.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\ServerConvChannelManager.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\ZipConstants.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\JZlibDecoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Encryption\PkzipClassic.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\ByteProcessorUtils.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\WriteTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\ReplayingDecoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\SocketAddressManager.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ServerConfiguration\HttpDecode\IDecoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\example-Kcp\KcpRttExampleServer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\DelimiterBasedFrameDecoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\SimpleLeakAwareCompositeByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Interface\IProtocol.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\ActionScheduledAsyncTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Tar\TarBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\NullNameValidator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\AbstractByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\IResourceLeakTracker.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\IByteBufferAllocator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\Logging\InternalLogLevel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\Deflate.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Tls\TlsUtils.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Tls\SniHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\Logging\MessageFormatter.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\DecoderException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IServerChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\fec\ByteBufCodingLoop.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Interface\IChooseAddressStrategy.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\AsciiString.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\StateActionScheduledAsyncTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\IByteBufferAllocatorMetricProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\MessageToMessageCodec.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\IChannelManager.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\InfCodes.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\AbstractReferenceCountedByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Logging\LogLevelExtensions.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Strings\StringEncoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Embedded\EmbeddedSocketAddress.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Bootstrapping\AbstractBootstrap.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\AbstractSocketByteChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\ISocketChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\GZip\GzipInputStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\IDatagramChannelConfig.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Pool\IChannelPoolMap.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\ActionChannelInitializer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Interface\IRltProto.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ClientOption.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Channel\AddHeaderChannelHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\queue\RefArrayAccessUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\ChannelHandlerAdapter.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\StateActionWithContextScheduledTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\IllegalReferenceCountException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Timeout\WriteTimeoutException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\DecoderResult.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\ZipNameTransform.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\GameClientService.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\PlatformDependent0.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Streams\ChunkedWriteHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IRecvByteBufAllocatorHandle.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\PreciseTimeSpan.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\NetUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Tls\ServerTlsSniSettings.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\IDatagramChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Groups\DefaultChannelGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\fec\FecEncode.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\code\ClientChannelInitializer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\Compression\DeflaterPending.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\ThreadDeathWatcher.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\DebugExtensions.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Protos\LuaProtoConfig.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\LineBasedFrameDecoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\fec\Snmp.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Tls\ClientTlsSettings.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\Segment.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Tls\NotSslRecordException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\ClientConvChannelManager.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\DatagramPacketEncoder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\UnpooledUnsafeDirectByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\IExecutor.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\PoolChunk.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\thread\DistuptorMessageExecutor.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\IPoolChunkMetric.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\IDecoderResultProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Core\INameTransform.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\CloseTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\Kcp.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IAddressedEnvelope.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\CombinedChannelDuplexHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IRecvByteBufAllocator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\UnsupportedMessageTypeException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\ConnectTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\IConstant.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ClientOptionBuilder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\JsonArrayHelper.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\PooledByteBufferAllocator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\ThreadExtensions.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\queue\ConcurrentCircularArrayQueue.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\AtomicReference.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\AbstractQueue.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ServerConfiguration\CreateLuaHelper.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ServerConfiguration\HttpDecode\Decoder_errorTest.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Bootstrapping\DefaultNameResolver.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\AttributeKey.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\thread\AtomicBoolean.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\ScheduledTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IChannelUnsafe.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\Compression\DeflaterHuffman.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\MpscArrayQueue.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\DefaultByteBufferHolder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\ServerChannelHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\CompressionHelper.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IFileRegion.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\PrematureChannelClosureException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\ThrowHelper.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\PooledDuplicatedByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IChannelId.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Base64\Base64.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\ByteOrder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\ChannelInitializer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\DefaultServerSocketChannelConfig.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Core\StreamUtils.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\NetworkUpdate.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Interface\IClientEventHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Interface\IReqProto.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Timeout\IdleStateEvent.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\AffinitizedEventLoopGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\KcpService.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\UnpooledByteBufferAllocator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\PoolChunkList.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Checksum\Crc32.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\GZIPException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IChannelPipeline.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\thread\MessageExecutorTest.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\NetEnum.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\IAppendable.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\IPAddressInfo.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\ChannelDuplexHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Lzw\LzwConstants.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\PooledByteBufferAllocatorMetric.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\DefaultChannelHandlerContext.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\GameConfig.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\WrappedCompositeByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Concurrency\ExecutionEnvironment.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\Message.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\TooLongFrameException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\Logging\FormattingTuple.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\Compression\InflaterHuffmanTree.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\ZipInputStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\IByteBufferAllocatorMetric.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\DefaultAttributeMap.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\IntegerExtensions.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\PooledUnsafeDirectByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\AlreadyConnectedException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Compression\GZIPHeader.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\EncoderException.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Flow\FlowControlHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Utilities\ITimerTask.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\fec\FecPacket.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Checksum\IChecksum.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\Crc32OutPut.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\AbstractUnpooledSlicedByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Utilities\Compression\ICSharpCode.SharpZipLib\Zip\Compression\Deflater.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\ChannelInputShutdownEvent.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\PooledByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\ServerConfiguration\ServerConfig.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\Logging\AbstractInternalLogger.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Timeout\IdleStateHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\FixedRecvByteBufAllocator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\ClientEndPointChannelManager.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\IByteBufferHolder.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Protos\RequestProtocol\ReqLuaMessage.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\Sockets\IServerSocketChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\base-kcp\LatencySimulator.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\kcp4game\code\IMessageManager.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\IPlatform.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IEventLoopGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\AbstractChannel.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\KcpServer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\Internal\PlatformProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Handlers\Tls\ServerTlsSettings.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\NetBase\Interface\IChannelHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\PoolThreadCache.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Transport\Channels\IChannelHandlerContext.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Common\ThreadLocalObjectList.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Buffers\UnreleasableByteBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\FecOutPut.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\thread\RingBuffer.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\DotNetty\DotNetty.Codecs\Protobuf\ProtobufVarint32LengthFieldPrepender.cs" />
+     <Compile Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Kcp\csharp-kcp\dotNetty-kcp\thread\EventLoopScheduleThread.cs" />
+     <None Include="Library\PackageCache\orcas.networking@0.0.23\Runtime\Orcas.NetWorking.asmdef" />
+ <Reference Include="UnityEngine">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AndroidJNIModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DSPGraphModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GIModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputLegacyModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubsystemsModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsNativeModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityCurlModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VirtualTexturingModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.CoreModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GraphViewModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.PackageManagerUIModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SceneTemplateModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIElementsModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIElementsSamplesModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIServiceModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UnityConnectModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Extensions.Logging">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.networking@0.0.23/Runtime/Kcp/DotNetty/Microsoft.Extensions.Logging.dll</HintPath>
+ </Reference>
+ <Reference Include="reedsolomon_csharp">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.networking@0.0.23/Runtime/Kcp/csharp-kcp/base-kcp/fec/reedsolomon_csharp.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiEditor">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl_v1.2.163">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.external.dependency.manager@0.0.2/Editor/Google.VersionHandlerImpl_v1.2.163.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver_v1.2.163">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.external.dependency.manager@0.0.2/Editor/Google.JarResolver_v1.2.163.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.163">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.external.dependency.manager@0.0.2/Editor/Google.IOSResolver_v1.2.163.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.external.dependency.manager@0.0.2/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="log4netPlastic">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="CString">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.tolua@0.0.15/Plugins/CString.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.networking@0.0.23/Runtime/Kcp/DotNetty/Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Extensions">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.networking@0.0.23/Runtime/Kcp/DotNetty/System.Threading.Tasks.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.Unsafe">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/com.unity.collections@0.9.0-preview.6/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ </Reference>
+ <Reference Include="Debugger">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.tolua@0.0.15/Plugins/Debugger.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.networking@0.0.23/Runtime/Kcp/DotNetty/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Plastic.Antlr3.Runtime">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenProEditor">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.PackageManagerResolver_v1.2.163">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.external.dependency.manager@0.0.2/Editor/Google.PackageManagerResolver_v1.2.163.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Immutable">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.networking@0.0.23/Runtime/Kcp/DotNetty/System.Collections.Immutable.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Burst.Unsafe">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/com.unity.burst@1.3.0-preview.12/Unity.Burst.Unsafe.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="unityplastic">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tracing">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Composition">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.FileSystem">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Web">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Transactions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Web">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Windows">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Serialization">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Orcas.Core.csproj">
+      <Project>{13adea2d-5b7e-e246-8e73-b1515a4e2ee3}</Project>
+      <Name>Orcas.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{c68df721-0302-dac5-6d1b-be792a31d7f9}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{149310f2-06ac-8c76-445e-1a8360e9b059}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

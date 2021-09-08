@@ -1,8 +1,18 @@
-local Main = {}
 
 function Main()					
 	print("logic start ")
 	
 end
 
-return Main
+function LuaLateUpdate()
+	
+end
+
+function  OnLevelWasLoaded()
+	
+end
+
+function OnApplicationPause()
+	
+end
+

@@ -1,0 +1,1421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <_TargetFrameworkDirectories>non_empty_path_generated_by_unity.rider.package</_TargetFrameworkDirectories>
+    <_FullFrameworkReferenceAssemblyPaths>non_empty_path_generated_by_unity.rider.package</_FullFrameworkReferenceAssemblyPaths>
+    <DisableHandlePackageFileConflicts>true</DisableHandlePackageFileConflicts>
+  <CodeAnalysisRuleSet></CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{84575cf0-7302-8a0f-8891-4183186b5e39}</ProjectGuid>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Orcas.Excel.Tools</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\Bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_2020_3_15;UNITY_2020_3;UNITY_2020;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;INCLUDE_DYNAMIC_GI;ENABLE_MONO_BDWGC;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;PLATFORM_STANDALONE;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;Core;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn></NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn></NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\CountBlank.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Logical\Or.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Date.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\CountA.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingBetween.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Fact.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\AddressTranslator.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Zlib\ZlibStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Replace.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Vml\ExcelVmlDrawingPictureCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Small.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelRadarChartSerie.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Days360.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidationInt.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\VarMethods.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Sign.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\VBA\ExcelVbaModuleAttribute.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Pi.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\ExcelShape.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\ExcelAddressUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\IntArgumentParser.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidationCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingThisWeek.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\VBA\ExcelVBAReference.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\CountIfs.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\GroupExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelRadarChart.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingTimePeriodGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\StdevP.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithFormula2.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingBottom.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\DSum.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Sparkline\ExcelSparkline.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\RangeConditionalFormatting.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingTimePeriodGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ParsingConfiguration.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\IExpressionFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Max.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelChartLegend.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Min.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingLessThanOrEqual.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\Interface\IConverter.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelBarChartSerie.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DoubleEnumerableArgConverter.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\TokenFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipSegmentedStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaList.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Workdays\AdditionalHolidayDays.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\TokenSeparatorHandlers\SeparatorHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\DcountA.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\ZipPackageRelationshipBase.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidationFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\ExcelDataValidationFormulaDateTime.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\ExcelConditionalFormattingIconDatabarValue.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipFile.x-IEnumerable.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\DatabaseFunction.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\TokenSeparatorHandlers\BracketHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\DateValue.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\ExcelDataValidationFormulaInt.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingThreeIconSet.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidation.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipFile.Events.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Utilities\ExtensionMethods.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Utilities\IntegerIdProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\ExcelConditionalFormattingValueObjectType.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\Dxf\ExcelDxfStyle.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelProtection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\AverageA.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingAverageGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\T.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Choose.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelChartCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingThisMonth.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelRangeCopyOptionFlags.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\ExcelNumberFormat.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Zlib\Deflate.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelChartAxis.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingRule.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Contracts\IExcelDataValidation.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Information\IsErr.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Zlib\InfTree.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\ExcelConditionalFormattingTimePeriodType.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\IExpressionConverter.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelRangeBase.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\ExcelDataValidationFormulaList.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\LookupFunction.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelSheetProtection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingUniqueValues.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Contracts\IExcelDataValidationAny.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\ErrorHandlingFunctionCompiler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\CompundDocument\CompoundDocument.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Table\PivotTable\ExcelPivotCacheDefinition.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Rows.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\IExpressionCompiler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Log10.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelRange.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipFile.Read.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\RangeAddress.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingLessThan.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingTomorrow.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelWorksheet.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Abs.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\SyntacticAnalyzer.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\ExcelDatabase.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Zlib\GZipStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingEndsWith.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Len.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingDuplicateValues.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\FunctionRepository.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Ceiling.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Sparkline\ExcelSparklineColor.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Networkdays.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidationWarningStyle.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Contracts\IExcelDataValidationList.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelWorksheets.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipFile.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidationOperator.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\ExcelDataValidationFormulaTime.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\ValueMatcher.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipConstants.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Operators\IOperator.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Finance\Pmt.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelDoughnutChart.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelChartTrendline.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Atanh.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\HiddenValuesHandlingFunction.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelWorkbook.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Rounddown.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\Dcount.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\TokenSeparatorHandlers\SheetnameHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingDuplicateValues.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\ArgumentExtensions.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Information\IsEven.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Contracts\IExcelDataValidationWithFormula.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\NetworkdaysIntl.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingNextMonth.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Contracts\IExcelDataValidationDecimal.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\FormulaParser.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\ExcelConditionalFormattingRuleType.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotEqual.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidationWithFormula.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingEndsWith.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\VBA\ExcelVBAProject.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Trunc.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\Dvarp.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingGreaterThan.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\Dmin.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Offset.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\RandBetween.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Weeknum.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Contracts\IExcelDataValidationInt.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\IfErrorFunctionCompiler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Search.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\CompundDocument\CompoundDocumentFile.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingLessThanOrEqual.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelLineChart.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\ITokenIndexProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\VBA\ExcelVbaProtection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\CalculateExtentions.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Logical\IfNa.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelChartDataLabel.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelPackage.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingContainsErrors.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\FunctionsModule.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Zlib\ZlibConstants.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\IStyle.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\ExcelConditionalFormattingConstants.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Mina.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Row.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Operators\Operators.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Logical\False.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Contracts\IExcelDataValidationWithFormula2.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Index.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingEqual.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Workdays\WorkdayCalculatorResult.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelHeaderFooter.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\Dmax.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\IExcelData.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingTopPercent.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelBarChart.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Table\PivotTable\ExcelPivotTableDataField.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingLastMonth.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Workday.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\EncryptionAlgorithm.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Contracts\IExcelDataValidationWithOperator.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipFile.Extract.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotContainsText.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\Dxf\ExcelDxfBorderItem.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Asin.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\Dvar.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingGreaterThanOrEqual.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipFile.Save.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\Lexer.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithShowValue.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelProtectedRange.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\ExcelParagraphCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\LookupDirection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Yearfrac.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\Contracts\IExcelDataValidationFormula.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\TokenizerContext.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\ZipPackageRelationshipCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\ExcelBorder.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingThreeColorScale.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\CountIf.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipCrypto.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\IExcelCell.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Logical\If.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelRow.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\ExcelDrawingBase.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Acosh.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\ExcelConditionalFormattingOperatorType.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\BuiltInFunctions.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ParsingContext.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\ExcelColor.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Sqrt.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\Expression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\RowMatcher.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipDirEntry.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\ExpressionGraphBuilder.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Edate.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Zlib\ZlibCodec.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipOutputStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\ErrorHandlingFunction.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidationCustom.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Information\IsText.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaWithValue.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidationDecimal.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\DefaultCompiler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\CompileResultValidators.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\ArgumentParserFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\UriHelper.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Workdays\WorkdayCalculator.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\ExcelLoader.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipEntry.Read.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\ExcelParagraph.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\VBA\ExcelVbaModule.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelValues.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\RangeAddressFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingTopBottomGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelAddressCache.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingAboveOrEqualAverage.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\ExcelErrorExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Quotient.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Lookup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Sinh.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\Dxf\ExcelDxfColor.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\FunctionCompilerFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\SumIfs.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Table\ExcelTable.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Logging\LoggerFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\Dxf\ExcelDxfFontBase.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Zlib\ParallelDeflateOutputStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\AverageIfs.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\IFunctionModule.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelCellBase.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Information\IsNonText.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelBubbleChart.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\XmlAccess\ExcelBorderItemXml.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Sumsq.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\ISyntacticAnalyzer.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Eomonth.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\ExcelPicture.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Table\ExcelTableColumn.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\ExcelAddressInfo.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidationType.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\EpplusExcelDataProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Address.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\ConstantExpressions.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Information\ErrorType.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelChartSerieDataLabel.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\ExcelFunction.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Numeric\CInt.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\ExcelDrawingBorder.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ParsingScopes.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\XmlAccess\ExcelNamedStyleXml.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\BoolArgumentParser.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\ExcelDatabaseField.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\IndexToAddressTranslator.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Table\PivotTable\ExcelPivotTableFieldGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\TokenType.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\StyleBase.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Table\PivotTable\ExcelPivotTableCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingThreeColorScale.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelComment.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelTextFormat.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Mod.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotContainsErrors.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Exceptions\CircularReferenceException.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipEntry.Write.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\ExcelRichTextCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Events.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Atan.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\AddressUtility.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Table\ExcelTableColumnCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelWorksheetView.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Logging\IFormulaParserLogger.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Rept.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\LookupFunctionCompiler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Tanh.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Lower.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingTop.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelStyles.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\RangeCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingContainsText.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Average.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingDataBarGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Workdays\HolidayWeekdays.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\MathHelper.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\TimeValue.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\CompileResult.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Degrees.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\ArrayLookupNavigator.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Workdays\HolidayWeekdaysFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\ConvertUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingNotBetween.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Table\PivotTable\ExcelPivotTable.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\ExcelRichText.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Day.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\CompileStrategy\CompileStrategy.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Substitute.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelScatterChart.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingTwoColorScale.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\FormulaDependency.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingBelowStdDev.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Exceptions.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Exact.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Match.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Vml\ExcelVmlDrawingComment.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\OffsetStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\TokenSeparatorProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\ILexer.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Var.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Shared.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelNamedRangeCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Today.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Exceptions\UnrecognizedTokenException.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\CF Implementation.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\IRangeID.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\CompundDocument\CoumpundDocumentItem.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Utilities\ArgumentInfo.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelStyleCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\IColor.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingDataBar.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Logical\And.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\NamedValueExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\XmlAccess\ExcelFillXml.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingFiveIconSet.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\ITokenSeparatorProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingBeginsWith.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\TokenHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\CellStateHelper.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Logical\Not.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelEncryption.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidationList.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Table\PivotTable\ExcelPivotTableFieldItem.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipEntrySource.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\ZipPackage.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipFile.Check.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingContainsText.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\IfNaFunctionCompiler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\AtomicExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Power.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\WildCardValueMatcher.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\ExcelDataValidationFormulaCustom.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingBelowOrEqualAverage.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\ISourceCodeTokenizer.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Rand.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipEntry.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\IRangeDataValidation.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\IValidationResult.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\ExcelReferenceType.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Ln.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\FunctionCompiler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Cos.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\Argument.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\CompileStrategy\StringConcatStrategy.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingAboveStdDev.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\CompileStrategy\CompileStrategyFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingGreaterThanOrEqual.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingThreeIconSet.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\ExcelConditionalFormattingRuleFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaDecimal.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\ExpressionConverter.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Proper.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaTime.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\ExcelDrawings.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Sparkline\ExcelSparklineGroupCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Maxa.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\Dxf\ExcelDxfFill.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingContainsBlanks.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\IExpressionGraphBuilder.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\Token.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\VarP.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ComHelper.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\CStr.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\IsoWeekNum.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\LookupNavigator.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\CRC32.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Zlib\ZlibBaseStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\ExcelBorderItem.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Product.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\Dxf\ExcelDxfNumberFormat.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Vml\ExcelVmlDrawingCommentCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Minute.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelAddress.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\ArgumentParser.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\FileSelector.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\Dget.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelChartPlotArea.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelProtectedRangeCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingRule.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelCommentCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaInt.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Fixed.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotContainsBlanks.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\VBA\ExcelVBASignature.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\ExpressionCompiler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingContainsBlanks.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\ExcelConditionalFormattingColorScaleValue.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidationAny.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\ExcelStyle.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ParsedValue.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\ExcelDrawingFill.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ExtractExistingFileAction.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Cosh.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\SumProduct.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\IFunctionNameProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidationTime.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\LookupValueMatcher.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Text.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Mid.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\ExcelDataValidationFormulaValue.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\ArgumentCollectionUtil.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\SqrtPi.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingBelowAverage.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\DependencyChain\DependenyChainFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\ExcelCellState.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\CollectionFlattener.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\IArgument.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingUniqueValues.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Vml\ExcelVmlDrawingPosition.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\ExcelDatabaseRow.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelDataProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\XmlAccess\ExcelBorderXml.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipFile.AddUpdate.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Log.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\Daverage.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelBubbleChartSerie.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Table\PivotTable\ExcelPivotTablePageFieldSettings.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Logging\TextFileLogger.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\ExpressionFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Exceptions\ExcelErrorValueException.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Sparkline\ExcelSparklineGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingEqual.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithText.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Compatibility\ImageCompat.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\ExcelDatabaseCriteria.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\EncryptedPackageHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidationDateTime.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Indirect.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\ObjectEnumerableArgConverter.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Information\IsError.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\DependencyChain\DependencyChain.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Information\Na.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Stdev.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Sparkline\Enums.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\LookupNavigatorFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelCell.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\LookupArguments.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelSurfaceChartSerie.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Sum.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\OfficeProperties.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Operators\OperatorsDict.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\Interface\Converters.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingBetween.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\ZipPackagePart.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\ZipPackageRelationship.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\DateParsingFunction.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\XmlAccess\ExcelFontXml.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingAboveAverage.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\FormulaParserManager.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\CompileResultValidator.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ParsingScope.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Compatibility\TypeCompat.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelScatterChartSerie.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Operators\Operator.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Information\IsLogical.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Encryption\EncryptionVerifier.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelPieChart.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\CompileStrategy\ICompileStrategyFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelCellAddress.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\ExcelLookupNavigator.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingLessThan.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\EpplusNameValueProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\TokenSeparatorHandlers\MultipleCharSeparatorHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\ExpressionEvaluator.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Utilities\Require.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipFile.Selector.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\ExcelConditionalFormattingHelper.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelChart.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Rank.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\ExcelDataValidationFormulaDecimal.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DecimalCompileResultValidator.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\TimeStringParser.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Month.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingLast7Days.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Large.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Tan.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Contracts\IExcelDataValidationDateTime.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithRank.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Information\N.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Right.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\MultipleRangeCriteriasFunction.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Zlib\DeflateStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\ExcelFill.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Acos.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Time.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\ExcelDrawingLineEnd.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Sin.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Atan2.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelWorkbookView.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingTwoColorScale.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Hour.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Table\ExcelTableCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\DateExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingToday.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelDataValidationWithFormula2.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingNotContainsErrors.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelPrinterSettings.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingBottomPercent.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\RangeDataValidation.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelSurfaceChart.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\XmlAccess\ExcelGradientFillXml.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipEntry.Extract.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\ArgumentParsers.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\DateStringParser.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\NameValueProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Floor.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingAverageGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Vml\ExcelVmlDrawingBaseCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Zlib\Zlib.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingFourIconSet.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingFourIconSet.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingContainsErrors.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\TimeBaseFunction.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\CompileResultFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Concatenate.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\FunctionExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\FunctionArgumentExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Information\IsNa.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\XmlAccess\StyleXmlHelper.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\XmlHelper.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\StyleChangeEventArgs.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\ExcelTime.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Asinh.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Weekday.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingNotBetween.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelOfPieChart.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Roundup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingBeginsWith.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\VLookup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\SqRefUtility.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\ExcelDataValidationFormula.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\TokenSeparatorHandlers\StringHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\CellStore.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelHyperLink.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\FunctionArgument.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Information\IsBlank.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\FormulaDependencies.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelChartSeries.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Contracts\IExcelDataValidationCustom.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Find.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipErrorAction.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingYesterday.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FontSize.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelBackgroundImage.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelCalculationOption.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DoubleArgumentParser.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Vml\ExcelVmlDrawingBase.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Table\PivotTable\ExcelPivotTableFieldCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\AverageIf.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Contracts\IExcelDataValidationTime.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Sparkline\ExcelSparklineCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingLastWeek.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\XmlAccess\ExcelXfsXml.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingNotEqual.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Left.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\ITokenFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Information\IsOdd.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\ExcelGradientFill.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingNotContainsBlanks.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\HLookup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\CompileStrategy\DefaultCompileStrategy.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Compatibility\CompatibilitySettings.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\SumIf.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\ZipInputStream.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Exceptions\ExcelErrorCodes.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Encryption\EncryptionHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\StringExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\ExcelConditionalFormattingCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Value.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelChartTitle.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\XmlAccess\ExcelNumberFormatXml.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingStdDevGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelChartDataTable.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Second.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Logical\IfError.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IRangeConditionalFormatting.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\EnumerableExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Count.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelLineChartSerie.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\SourceCodeTokenizer.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelChartSerie.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithReverse.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingNextWeek.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Round.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Exp.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Year.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Encryption\EncryptionHeader.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\ExcelFont.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\XmlHelperFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\Dxf\DxfStyleBase.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\BooleanExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelPieChartSerie.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\XmlAccess\ExcelColorXml.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Upper.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Columns.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Database\ExcelDatabaseCriteriaField.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\IntegerExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\VBACompression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\WinZipAes.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\ExcelAddressExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\DataType.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\RefAndLookup\Column.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\ExcelView3D.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Encryption\EncryptionInfo.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Table\PivotTable\ExcelPivotTableField.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelNamedRange.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Information\IsNumber.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Median.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Logical\True.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Utilities\RegexConstants.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Zlib\Tree.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Now.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\IParsingLifetimeEventHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Vml\ExcelVmlDrawingPicture.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingFiveIconSet.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Math\Subtotal.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingGreaterThan.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\DecimalExpression.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\Require.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\Dxf\ExcelDxfBorder.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\DependencyChain\FormulaCell.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Utils\ValidationResult.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\ExpressionGraph.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithStdDev.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Packaging\DotNetZip\Zlib\Inflate.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Drawing\Chart\ExcelChartSurface.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Utilities\IdProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\FormulaDependencyFactory.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\VBA\ExcelVBAModuleCollection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\INameValueProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingIconSetGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExcelUtilities\CellReferenceProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingColorScaleGroup.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\FunctionNameProvider.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Properties\AssemblyInfo.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\ExcelConditionalFormattingEnums.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\ExpressionGraph\FunctionCompilers\IfFunctionCompiler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\DataValidation\Formulas\Contracts\IExcelDataValidationFormulaDateTime.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\DateTime\Workdays\WorkdayCalculationDirection.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\Style\ExcelTextFont.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Rules\ExcelConditionalFormattingNotContainsText.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ExcelColumn.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\Hyperlink.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\ExcelDoubleCellValue.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\LexicalAnalysis\TokenSeparatorHandlers\TokenSeparatorHandler.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\ConditionalFormatting\Contracts\IExcelConditionalFormattingWithFormula.cs" />
+     <Compile Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\FormulaParsing\Excel\Functions\Text\CharFunction.cs" />
+     <None Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\EPPlus\obj\Debug\EPPlus.csproj.FileListAbsolute.txt" />
+     <None Include="Library\PackageCache\orcas.excel.tools@0.0.8\Runtime\Orcas.Excel.Tools.asmdef" />
+ <Reference Include="UnityEngine">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AndroidJNIModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterInputModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClusterRendererModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CrashReportingModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DSPGraphModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GIModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.GIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputLegacyModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubsystemsModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextCoreModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsNativeModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsNativeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityCurlModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityCurlModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityTestProtocolModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VFXModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VirtualTexturingModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.VirtualTexturingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.CoreModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.GraphViewModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.GraphViewModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.PackageManagerUIModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.PackageManagerUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.SceneTemplateModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.SceneTemplateModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIElementsModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIElementsSamplesModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIElementsSamplesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UIServiceModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.UIServiceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UnityConnectModule">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEngine/UnityEditor.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.WindowsStandalone.Extensions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Extensions.Logging">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.networking@0.0.23/Runtime/Kcp/DotNetty/Microsoft.Extensions.Logging.dll</HintPath>
+ </Reference>
+ <Reference Include="reedsolomon_csharp">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.networking@0.0.23/Runtime/Kcp/csharp-kcp/base-kcp/fec/reedsolomon_csharp.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiEditor">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DemiLib/Core/Editor/DemiEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandlerImpl_v1.2.163">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.external.dependency.manager@0.0.2/Editor/Google.VersionHandlerImpl_v1.2.163.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.JarResolver_v1.2.163">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.external.dependency.manager@0.0.2/Editor/Google.JarResolver_v1.2.163.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.IOSResolver_v1.2.163">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.external.dependency.manager@0.0.2/Editor/Google.IOSResolver_v1.2.163.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.VersionHandler">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.external.dependency.manager@0.0.2/Editor/Google.VersionHandler.dll</HintPath>
+ </Reference>
+ <Reference Include="log4netPlastic">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
+ </Reference>
+ <Reference Include="CString">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.tolua@0.0.15/Plugins/CString.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.networking@0.0.23/Runtime/Kcp/DotNetty/Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Extensions">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.networking@0.0.23/Runtime/Kcp/DotNetty/System.Threading.Tasks.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.Unsafe">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/com.unity.collections@0.9.0-preview.6/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+ </Reference>
+ <Reference Include="Debugger">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.tolua@0.0.15/Plugins/Debugger.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.networking@0.0.23/Runtime/Kcp/DotNetty/Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Plastic.Antlr3.Runtime">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenProEditor">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DOTweenPro/Editor/DOTweenProEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Google.PackageManagerResolver_v1.2.163">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.external.dependency.manager@0.0.2/Editor/Google.PackageManagerResolver_v1.2.163.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Immutable">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/orcas.networking@0.0.23/Runtime/Kcp/DotNetty/System.Collections.Immutable.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Burst.Unsafe">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/com.unity.burst@1.3.0-preview.12/Unity.Burst.Unsafe.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Assets/Tools/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="unityplastic">
+ <HintPath>E:/GitSpace/SanXiao/SanXiao/Library/PackageCache/com.unity.collab-proxy@1.5.7/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tracing">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Composition">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.FileSystem">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Web">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Transactions">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Web">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Windows">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Serialization">
+ <HintPath>D:/Unity/2020.3.15f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Orcas.Resources.csproj">
+      <Project>{a1a5b313-3f4a-6a83-a421-315106db91f3}</Project>
+      <Name>Orcas.Resources</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEditor.UI.csproj">
+      <Project>{c68df721-0302-dac5-6d1b-be792a31d7f9}</Project>
+      <Name>UnityEditor.UI</Name>
+    </ProjectReference>
+    <ProjectReference Include="UnityEngine.UI.csproj">
+      <Project>{149310f2-06ac-8c76-445e-1a8360e9b059}</Project>
+      <Name>UnityEngine.UI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
