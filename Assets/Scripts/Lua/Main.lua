@@ -1,6 +1,6 @@
 
 function Main()					
-	print("logic start ")
+	print("logic startdbdssw ")
 	
 end
 
