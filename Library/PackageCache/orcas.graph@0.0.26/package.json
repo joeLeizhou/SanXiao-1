@@ -1,0 +1,19 @@
+{
+  "name": "orcas.graph",
+  "displayName": "Orcas Graph",
+  "version": "0.0.26",
+  "unity": "2019.4",
+  "description": "Replace this string with your own description of the package. This description appears in the Package Manager window when the user selects this package from the list. \n\nFor best results, use this text to summarize: \n▪ What the package does \n▪ How it can benefit the user \n\nNote: Special formatting characters are supported, including line breaks ('\\n') and bullets ('\\u25AA').",
+  "dependencies": {
+    "com.unity.mathematics": "1.1.0",
+    "orcas.core": "0.0.6",
+    "com.unity.collections": "0.9.0-preview.6"
+  },
+  "samples": [
+    {
+      "displayName": "Example Sample",
+      "description": "Replace this string with your own description of the sample. Delete the Samples folder if not needed.",
+      "path": "Samples~/Example"
+    }
+  ]
+}

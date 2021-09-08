@@ -1,0 +1,102 @@
+JGraphNodeView {
+   width: 360px;
+ }
+
+JGraphNodeView.input {
+  width: 180px;
+}
+
+JGraphNodeView.output {
+  width: 180px;
+}
+
+JGraphNodeView #collapsible-area {
+    width: 0;
+    height: 0;
+}
+
+JGraphNodeView #previewFiller.expanded {
+    width: 200px;
+    padding-bottom: 200px;
+}
+
+JGraphNodeView #controls {
+    background-color: rgba(63, 63, 63, 0.8);
+}
+
+JGraphNodeView.input #title {
+    background-color: rgba(59, 94, 68, 0.8);
+}
+
+JGraphNodeView.input #contents {
+    background-color: rgba(59, 94, 68, 0.8);
+}
+
+JGraphNodeView.output #title {
+    background-color: rgba(59, 83, 94, 0.8);
+}
+
+JGraphNodeView.output #contents {
+    background-color: rgba(59, 83, 94, 0.8);
+}
+
+JGraphNodeView #controls > #items {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+JGraphNodeView > #resize {
+    background-image : resource("GraphView/Nodes/NodeChevronLeft.png");
+    position-type: absolute;
+    position-right: 5px;
+    position-bottom: 5px;
+    width: 10px;
+    height: 10px;
+    cursor: resize-up-left;
+}
+
+JGraphNodeView > #portInputContainer {
+    position: absolute;
+    width: 212px;
+    left: -200px;
+    top: 42px;
+}
+
+JGraphNodeView > #settings-container {
+	background-color : rgb(63, 63, 63);
+}
+
+JGraphNodeView.input > #settings-container {
+    background-color: rgba(59, 94, 68, 0.8);
+}
+
+#settings-button {
+    width: 16px;
+    align-self: center;
+    justify-content: center;
+    padding-left: 8px;
+}
+
+#settings-button > #icon {
+    width : 12px;
+    height : 12px;
+    align-self: center;
+    visibility: hidden;
+    background-image : resource("Icons/SettingsIcons");
+}
+
+.node:hover #settings-button > #icon {
+    visibility: visible;
+}
+
+#settings-button:hover > #icon {
+    align-self: center;
+    background-color: #2B2B2B;
+    background-image : resource("Icons/SettingsIcons_hover");
+}
+
+#settings-button.clicked > #icon{
+    background-color: #2B2B2B;
+    background-image : resource("Icons/SettingsIcons_hover");
+    visibility: visible; 
+}

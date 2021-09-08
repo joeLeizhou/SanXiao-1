@@ -1,0 +1,16 @@
+{
+    "name": "Orcas.Lua.Core",
+    "references": [
+        "GUID:ec5bdf55acae307459d28204f58a123e",
+        "GUID:c87f4304c4aff9444aa382766f92410f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

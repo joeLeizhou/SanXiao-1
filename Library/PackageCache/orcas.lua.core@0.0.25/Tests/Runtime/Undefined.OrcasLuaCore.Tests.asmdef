@@ -1,0 +1,11 @@
+{
+    "name": "Undefined.OrcasLuaCore.Tests",
+    "references": [
+        "Undefined.OrcasLuaCore"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}

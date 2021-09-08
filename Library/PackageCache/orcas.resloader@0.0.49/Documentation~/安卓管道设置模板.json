@@ -1,0 +1,246 @@
+{
+    "options": [
+        {
+            "enabled": false,
+            "definition": {
+                "id": "5d58cc01-7c75-450c-be18-a388ddb129ec"
+            },
+            "inputs": {
+                "branchFilters": "[\"+refs/heads/*\"]",
+                "additionalFields": "{}"
+            }
+        },
+        {
+            "enabled": false,
+            "definition": {
+                "id": "a9db38f9-9fdc-478c-b0f9-464221e58316"
+            },
+            "inputs": {
+                "workItemType": "Bug",
+                "assignToRequestor": "true",
+                "additionalFields": "{}"
+            }
+        }
+    ],
+    "triggers": [
+        {
+            "schedules": [
+                {
+                    "branchFilters": [
+                        "+refs/heads/master"
+                    ],
+                    "timeZoneId": "China Standard Time",
+                    "startHours": 12,
+                    "startMinutes": 0,
+                    "daysToBuild": 31,
+                    "scheduleJobId": "5595b6f7-955b-4d49-8487-4d2d438d0cdf",
+                    "scheduleOnlyWithChanges": true
+                }
+            ],
+            "triggerType": 8
+        }
+    ],
+    "variables": {
+        "system.debug": {
+            "value": "false",
+            "allowOverride": true
+        }
+    },
+    "properties": {},
+    "tags": [],
+    "_links": {
+        "self": {
+            "href": "https://tfs.fotoable.com/tfs/game2/46d058db-4522-490f-9a3c-1a05d1fd1d10/_apis/build/Definitions/19?revision=30"
+        },
+        "web": {
+            "href": "https://tfs.fotoable.com/tfs/game2/46d058db-4522-490f-9a3c-1a05d1fd1d10/_build/definition?definitionId=19"
+        },
+        "editor": {
+            "href": "https://tfs.fotoable.com/tfs/game2/46d058db-4522-490f-9a3c-1a05d1fd1d10/_build/designer?id=19&_a=edit-build-definition"
+        },
+        "badge": {
+            "href": "https://tfs.fotoable.com/tfs/game2/46d058db-4522-490f-9a3c-1a05d1fd1d10/_apis/build/status/19"
+        }
+    },
+    "buildNumberFormat": "$(Date:yyyyMMdd).$(Rev:r)",
+    "jobAuthorizationScope": 1,
+    "jobTimeoutInMinutes": 60,
+    "jobCancelTimeoutInMinutes": 5,
+    "process": {
+        "phases": [
+            {
+                "steps": [
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "打AB",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "task": {
+                            "id": "f357416a-9646-4cd6-9d96-e2f2a9574ce6",
+                            "versionSpec": "1.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "unityEditorsPathMode": "unityHub",
+                            "customUnityEditorsPath": "/Applications/Unity/Unity.app/Contents/MacOS/Unity",
+                            "unityProjectPath": "",
+                            "cmdArgs": "-buildTarget Android -executeMethod ProjectBuildHelper.BuildAB AssetBundlesBuildSettings -quit"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "把资源移动到StreamingAssets文件夹下面",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "task": {
+                            "id": "f357416a-9646-4cd6-9d96-e2f2a9574ce6",
+                            "versionSpec": "1.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "unityEditorsPathMode": "unityHub",
+                            "customUnityEditorsPath": "",
+                            "unityProjectPath": "",
+                            "cmdArgs": "-buildTarget Android -executeMethod ProjectBuildHelper.CopyAB2StreamingAssets BuildSettings -quit"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "导出APK",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "refName": "apkpath",
+                        "task": {
+                            "id": "f357416a-9646-4cd6-9d96-e2f2a9574ce6",
+                            "versionSpec": "1.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "unityEditorsPathMode": "unityHub",
+                            "customUnityEditorsPath": "",
+                            "unityProjectPath": "",
+                            "cmdArgs": "-buildTarget Android -executeMethod ProjectBuildHelper.BuildAPK fotoable fotoable -quit"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "发apk链接到钉钉上",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "task": {
+                            "id": "d9bafed4-0b18-4f58-968d-86655b4d2ce9",
+                            "versionSpec": "2.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "script": "python3 /Users/btkj/Desktop/myagent/_work/SendApkToDingTalk.py https://oapi.dingtalk.com/robot/send?access_token=f408843b2943b860060bb85cdee9d02a7c8a3cfe6187a89a4797be581a6264b7 SEC477a884805f73f04b5f93ac48591f3136d01bb4bd7114a0618895bf22320670d",
+                            "workingDirectory": "",
+                            "failOnStderr": "false"
+                        }
+                    }
+                ],
+                "name": "代理作业 1",
+                "refName": "Job_1",
+                "condition": "succeeded()",
+                "target": {
+                    "queue": {
+                        "_links": {
+                            "self": {
+                                "href": "https://tfs.fotoable.com/tfs/game2/_apis/build/Queues/149"
+                            }
+                        },
+                        "id": 149,
+                        "url": "https://tfs.fotoable.com/tfs/game2/_apis/build/Queues/149",
+                        "pool": null
+                    },
+                    "executionOptions": {
+                        "type": 0
+                    },
+                    "allowScriptsAuthAccessOption": false,
+                    "type": 1
+                },
+                "jobAuthorizationScope": 1
+            }
+        ],
+        "type": 1
+    },
+    "repository": {
+        "properties": {
+            "cleanOptions": "0",
+            "labelSources": "0",
+            "labelSourcesFormat": "$(build.buildNumber)",
+            "reportBuildStatus": "true",
+            "gitLfsSupport": "false",
+            "skipSyncSource": "false",
+            "checkoutNestedSubmodules": "false",
+            "fetchDepth": "1"
+        },
+        "id": "ee55a7da-6fb6-4a82-b270-c5f49bc7d00e",
+        "type": "TfsGit",
+        "name": "AFK",
+        "url": "https://tfs.fotoable.com/tfs/game2/AFK/_git/AFK",
+        "defaultBranch": "refs/heads/master",
+        "clean": "false",
+        "checkoutSubmodules": false
+    },
+    "processParameters": {},
+    "quality": 1,
+    "authoredBy": {
+        "displayName": "jiangyuke",
+        "url": "https://tfs.fotoable.com/tfs/game2/_apis/Identities/cc3a6138-e431-4f3b-9f4e-ef654b082115",
+        "_links": {
+            "avatar": {
+                "href": "https://tfs.fotoable.com/tfs/game2/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMTczOTE2OTgzNS03MDY1MDgyNTMtMTg4NjM3MzgxOS0xNjcz"
+            }
+        },
+        "id": "cc3a6138-e431-4f3b-9f4e-ef654b082115",
+        "uniqueName": "BEITA\\jiangyuke",
+        "imageUrl": "https://tfs.fotoable.com/tfs/game2/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMTczOTE2OTgzNS03MDY1MDgyNTMtMTg4NjM3MzgxOS0xNjcz",
+        "descriptor": "win.Uy0xLTUtMjEtMTczOTE2OTgzNS03MDY1MDgyNTMtMTg4NjM3MzgxOS0xNjcz"
+    },
+    "drafts": [],
+    "queue": {
+        "_links": {
+            "self": {
+                "href": "https://tfs.fotoable.com/tfs/game2/_apis/build/Queues/149"
+            }
+        },
+        "id": 149,
+        "name": "MacMini",
+        "url": "https://tfs.fotoable.com/tfs/game2/_apis/build/Queues/149",
+        "pool": {
+            "id": 5,
+            "name": "MacMini"
+        }
+    },
+    "id": 19,
+    "name": "AFK 安卓 日常打包",
+    "url": "https://tfs.fotoable.com/tfs/game2/46d058db-4522-490f-9a3c-1a05d1fd1d10/_apis/build/Definitions/19?revision=30",
+    "uri": "vstfs:///Build/Definition/19",
+    "path": "\\",
+    "type": 2,
+    "queueStatus": 0,
+    "revision": 30,
+    "createdDate": "2021-07-22T12:43:05.783Z",
+    "project": {
+        "id": "46d058db-4522-490f-9a3c-1a05d1fd1d10",
+        "name": "AFK",
+        "url": "https://tfs.fotoable.com/tfs/game2/_apis/projects/46d058db-4522-490f-9a3c-1a05d1fd1d10",
+        "state": 1,
+        "revision": 582,
+        "visibility": 0,
+        "lastUpdateTime": "2021-03-23T08:35:15.667Z"
+    }
+}

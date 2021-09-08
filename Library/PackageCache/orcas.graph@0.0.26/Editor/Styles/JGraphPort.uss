@@ -1,0 +1,195 @@
+/* THIS FILE IS FROM GRAPHVIEW BUT CONTAINS MODIFICATIONS */
+
+JGraphPort {
+    height: 24px;
+    align-items: center;
+    padding-left: 4px;
+    padding-right: 4px;
+    port-color: rgb(200, 20, 20);
+    disabled-port-color: rgb(70, 70, 70);
+}
+
+JGraphPort.input {
+    flex-direction: row;
+}
+
+JGraphPort.output {
+    flex-direction: row-reverse;
+}
+
+JGraphPort > #connector {
+    border-color: rgb(70, 70, 70);
+    background-color: #212121;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 4px;
+    margin-right: 4px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+JGraphPort > #connector:hover {
+    border-color:  #f0f0f0
+}
+
+JGraphPort > #connector > #cap
+{
+    background-color: #212121;
+    width: 4px;
+    height: 4px;
+    border-radius: 4px;
+}
+
+JGraphPort > #connector > #cap:hover
+{
+    background-color: #f0f0f0;
+}
+
+JGraphPort > #connector.portHighlight {
+    border-color: #f0f0f0;
+}
+
+JGraphPort > #type {
+    text-color: #c1c1c1;
+    font-size: 11px;
+    height: 16px; 
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 4px; 
+    margin-right: 4px;
+}
+
+JGraphPort.input > #type {
+    text-alignment: middle-left;
+}
+
+JGraphPort.output > #type {
+    text-alignment:middle-right;
+}
+
+/*******************************/
+/* LogicPorts colors by types */
+/*******************************/
+
+JGraphPort.typeTexture {
+    port-color:#FF8B8B;
+}
+
+JGraphPort.typeTexture2D {
+    /* Same as typeTexture */
+    port-color:#FF8B8B;
+}
+
+JGraphPort.typeCubemap {
+	/* Same as typeTexture */
+    port-color:#FF8B8B;
+}
+
+JGraphPort.typeGraphScript {
+    /* Todo: there is no such type in Unity atm */
+    port-color:#E681BA;
+}
+
+JGraphPort.typeFloat4 {
+    port-color:#FBCBF4;
+}
+
+JGraphPort.typeVector4 {
+    /* Same as typeFloat4 */
+    port-color:#FBCBF4;
+}
+
+JGraphPort.typeQuaternion {
+    /* Same as typeFloat4 */
+    port-color:#FBCBF4;
+}
+
+JGraphPort.typeColor {
+    /* Same as typeFloat4 */
+    port-color:#FBCBF4;
+}
+
+JGraphPort.output.port.typeINT {
+    port-color:#9481E6;
+}
+
+JGraphPort.output.port.typeENTITY {
+    /* Same as typeInt */
+    port-color:#9481E6;
+}
+
+/* TEMP STUFF THAT SHOULD ACTUALLY STAY IN GRAPHVIEW */
+JGraphPort.typeInt64 {
+    /* Same as typeInt */
+    /* todo we might want to differentiate that from int32 */
+    port-color:#9481E6;
+}
+
+JGraphPort.typeBOOL {
+    port-color:#9481E6;
+}
+
+JGraphPort.typeMatrix {
+    port-color:#8FC1DF;
+}
+
+JGraphPort.typeMatrix4x4 {
+    /* Same as typeMatrix */
+    port-color:#8FC1DF;
+}
+
+JGraphPort.typeGameObject {
+    port-color:#8FC1DF;
+}
+
+JGraphPort.Vector1 {
+    port-color:#84E4E7;
+}
+
+JGraphPort.typeFloat1 {
+    /* Same as typeFloat */
+    port-color:#84E4E7;
+}
+
+JGraphPort.typeSingle {
+    /* Same as typeFloat */
+    port-color:#84E4E7;
+}
+
+JGraphPort.typeDouble {
+    /* Same as typeFloat */
+    /* todo we might want to differentiate that from float */
+    port-color:#84E4E7;
+}
+
+JGraphPort > .typeFloat2 {
+    port-color:#9AEF92;
+}
+
+JGraphPort > .typeVECTOR2 {
+    /* Same as typeFloat2 */
+    port-color:#9AEF92;
+}
+
+JGraphPort.typeComponent {
+    port-color:#C9F774;
+}
+
+JGraphPort.typeFloat3 {
+    port-color:#F6FF9A;
+}
+
+JGraphPort > .typeVECTOR3 {
+    /* Same as typeFloat3 */
+    port-color:#F6FF9A;
+}
+
+JGraphPort.typeString {
+    port-color:#FCD76E;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "orcas.fsm",
+  "displayName": "Orcas Fsm",
+  "version": "0.0.14",
+  "unity": "2019.4",
+  "type": "library",
+  "description": "非ECS版有限状态机，ECS版移动到了Orcas.ECS.Fsm",
+  "samples": [
+    {
+      "displayName": "Example Sample",
+      "description": "Replace this string with your own description of the sample. Delete the Samples folder if not needed.",
+      "path": "Samples~/Example"
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+PortInputView {
+    width: 212px;
+    height: 22px;
+    padding-top: 1px;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+PortInputView > #container {
+    background-color: rgba(63, 63, 63, 0.8);
+    flex-direction: row;
+    align-items: center;
+    padding-left: 8px;
+    margin-right: 12px;
+    border-left-width: 1px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-color: rgba(25, 25, 25, 0.8);
+    border-radius: 2px;
+}
+
+PortInputView > #container > #slot {
+    width: 8px;
+    height: 8px;
+    background-color: #2B2B2B;
+    border-color: #232323;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-radius: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
+    align-items: center;
+    justify-content: center;
+}
+
+PortInputView > #edge {
+    position-type: absolute;
+    position-right: 0;
+    position-top: 10.5px;
+    height: 2px;
+    width: 20px;
+    background-color: #ff0000;
+}
+
+PortInputView > #container > #slot > #dot {
+    width: 4px;
+    height: 4px;
+    background-color: #ff0000;
+    border-radius: 4px;
+}
+
+
+PortInputView > #container>  #inputContainer {
+    flex-direction: row;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+PortInputView > #container > #inputContainer > #dummy {
+    margin-left: 0;
+    margin-right: 0;
+    cursor: slide-arrow;
+    justify-content: center;
+}
+
+
+PortInputView > #container > #inputContainer > Label {
+    margin-left: 0;
+    margin-right: 0;
+    cursor: slide-arrow;
+}
+
+PortInputView > #container > #inputContainer > DoubleField {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    
+    min-width: 30px;
+    max-width: 60px;
+    cursor: slide-arrow;
+}
+
+PortInputView > #container > #inputContainer > TextField,
+PortInputView > #container > #inputContainer > EnumFlagsField,
+PortInputView > #container > #inputContainer > EnumField {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    min-width: 30px;
+    width: 100%;
+    cursor: slide-arrow;
+
+    flex: 1;
+    height: 19px;
+}
+
+PortInputView > #container > #inputContainer > EnumField > .unity-enum-field__input{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+PortInputView > #container > #inputContainer > Toggle {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    min-width: 20px;
+    max-width: 30px;
+    cursor: slide-arrow;
+}
+
+PortInputView > #container > #inputContainer > IntegerField,
+PortInputView > #container > #inputContainer > FloatField {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    min-width: 30px;
+    max-width: 60px;
+    cursor: slide-arrow;
+}
+
+PortInputView > #container > #inputContainer > Vector2Field,
+PortInputView > #container > #inputContainer > Vector3Field {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width : 100%;
+}
+
+PortInputView.typeMatrix4 > #container > #slot > #dot,
+PortInputView.typeMatrix3 > #container > #slot > #dot,
+PortInputView.typeMatrix2 > #container > #slot > #dot {
+    background-color: #8FC1DF;
+}
+
+PortInputView.typeMatrix4,
+PortInputView.typeMatrix3,
+PortInputView.typeMatrix2 {
+    edge-color: #8FC1DF;
+}
+
+PortInputView.typeTexture2D > #container > #slot > #dot,
+PortInputView.typeTexture2DArray > #container > #slot > #dot,
+PortInputView.typeTexture3D > #container > #slot > #dot,
+PortInputView.typeCubemap > #container > #slot > #dot {
+    background-color: #FF8B8B;
+}
+
+PortInputView.typeTexture2D,
+PortInputView.typeTexture2DArray,
+PortInputView.typeTexture3D,
+PortInputView.typeCubemap {
+    edge-color: #FF8B8B;
+}
+
+PortInputView.typeVector4 > #container > #slot > #dot {
+    background-color: #FBCBF4;
+}
+
+PortInputView.typeVector4 {
+    edge-color: #FBCBF4;
+}
+
+PortInputView.typeVector3 > #container > #slot > #dot {
+    background-color: #F6FF9A;
+}
+
+PortInputView.typeVector3 {
+    edge-color: #F6FF9A;
+}
+
+PortInputView.typeVector2 > #container > #slot > #dot {
+    background-color: #9AEF92;
+}
+
+PortInputView.typeVector2 {
+    edge-color: #9AEF92;
+}
+
+PortInputView.typeVector1 > #container > #slot > #dot {
+    background-color: #84E4E7;
+}
+
+PortInputView.typeVector1 {
+    edge-color: #84E4E7;
+}
+
+PortInputView.typeBoolean > #container > #slot > #dot {
+    background-color: #9481E6;
+}
+
+PortInputView.typeBoolean {
+    edge-color: #9481E6;
+}

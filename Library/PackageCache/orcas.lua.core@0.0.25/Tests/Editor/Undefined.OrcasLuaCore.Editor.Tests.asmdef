@@ -1,0 +1,14 @@
+{
+    "name": "Undefined.OrcasLuaCore.Editor.Tests",
+    "references": [
+        "Undefined.OrcasLuaCore.Editor",
+        "Undefined.OrcasLuaCore"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

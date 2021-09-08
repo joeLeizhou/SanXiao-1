@@ -1,0 +1,17 @@
+{
+    "name": "Orcas.ToLua.Editor",
+    "references": [
+        "GUID:ec5bdf55acae307459d28204f58a123e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

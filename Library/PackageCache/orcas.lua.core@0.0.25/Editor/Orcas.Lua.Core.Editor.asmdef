@@ -1,0 +1,17 @@
+{
+    "name": "Orcas.Lua.Core.Editor",
+    "references": [
+        "Undefined.OrcasLuaCore"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

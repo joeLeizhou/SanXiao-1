@@ -1,0 +1,17 @@
+{
+    "name": "Orcas.Csv.Eidtor",
+    "references": [
+        "GUID:c87f4304c4aff9444aa382766f92410f"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

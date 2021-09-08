@@ -1,0 +1,17 @@
+{
+    "name": "Orcas.Graph",
+    "references": [
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "GUID:cf3829b526d78b84b8a31ee2ea9d7f1c",
+        "GUID:a5baed0c9693541a5bd947d336ec7659"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

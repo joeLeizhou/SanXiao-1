@@ -1,0 +1,392 @@
+{
+    "options": [
+        {
+            "enabled": false,
+            "definition": {
+                "id": "5d58cc01-7c75-450c-be18-a388ddb129ec"
+            },
+            "inputs": {
+                "branchFilters": "[\"+refs/heads/*\"]",
+                "additionalFields": "{}"
+            }
+        },
+        {
+            "enabled": false,
+            "definition": {
+                "id": "a9db38f9-9fdc-478c-b0f9-464221e58316"
+            },
+            "inputs": {
+                "workItemType": "Bug",
+                "assignToRequestor": "true",
+                "additionalFields": "{}"
+            }
+        }
+    ],
+    "variables": {
+        "system.debug": {
+            "value": "false",
+            "allowOverride": true
+        }
+    },
+    "properties": {},
+    "tags": [],
+    "_links": {
+        "self": {
+            "href": "https://tfs.fotoable.com/tfs/game2/46d058db-4522-490f-9a3c-1a05d1fd1d10/_apis/build/Definitions/27?revision=93"
+        },
+        "web": {
+            "href": "https://tfs.fotoable.com/tfs/game2/46d058db-4522-490f-9a3c-1a05d1fd1d10/_build/definition?definitionId=27"
+        },
+        "editor": {
+            "href": "https://tfs.fotoable.com/tfs/game2/46d058db-4522-490f-9a3c-1a05d1fd1d10/_build/designer?id=27&_a=edit-build-definition"
+        },
+        "badge": {
+            "href": "https://tfs.fotoable.com/tfs/game2/46d058db-4522-490f-9a3c-1a05d1fd1d10/_apis/build/status/27"
+        }
+    },
+    "jobAuthorizationScope": 1,
+    "jobTimeoutInMinutes": 60,
+    "jobCancelTimeoutInMinutes": 5,
+    "process": {
+        "phases": [
+            {
+                "steps": [
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "安装 apple 预配配置文件",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "task": {
+                            "id": "0f9f66ca-250e-40fd-9678-309bcd439d5e",
+                            "versionSpec": "1.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "provisioningProfileLocation": "secureFiles",
+                            "provProfileSecureFile": "15a92e81-ba09-4883-8fb5-a93e2a342e0f",
+                            "provProfileSourceRepository": "",
+                            "removeProfile": "true"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "安装 apple 预配配置文件",
+                        "timeoutInMinutes": 0,
+                        "condition": "eq(1,2)",
+                        "task": {
+                            "id": "0f9f66ca-250e-40fd-9678-309bcd439d5e",
+                            "versionSpec": "1.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "provisioningProfileLocation": "secureFiles",
+                            "provProfileSecureFile": "f561bf6d-4fe6-4fd6-97ea-773dd0801161",
+                            "provProfileSourceRepository": "",
+                            "removeProfile": "true"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "安装 Apple 证书",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "task": {
+                            "id": "d2eff759-736d-4b7b-8554-7ba0960d49d6",
+                            "versionSpec": "2.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "certSecureFile": "1e5f046b-1fa3-4d56-a4cc-854866bb65ef",
+                            "certPwd": "123456",
+                            "keychain": "temp",
+                            "keychainPassword": "123456",
+                            "customKeychainPath": "afk_distribution",
+                            "deleteCert": "true",
+                            "deleteCustomKeychain": "true",
+                            "signingIdentity": "G65A37Z49J"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "安装 Apple 证书",
+                        "timeoutInMinutes": 0,
+                        "condition": "eq(1,2)",
+                        "task": {
+                            "id": "d2eff759-736d-4b7b-8554-7ba0960d49d6",
+                            "versionSpec": "2.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "certSecureFile": "f191bec7-e00f-41d5-88dc-c8295376c588",
+                            "certPwd": "123456",
+                            "keychain": "temp",
+                            "keychainPassword": "123456",
+                            "customKeychainPath": "afk_development",
+                            "deleteCert": "true",
+                            "deleteCustomKeychain": "true",
+                            "signingIdentity": "LA47U45472"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "打AB",
+                        "timeoutInMinutes": 0,
+                        "condition": "eq(1,2)",
+                        "task": {
+                            "id": "f357416a-9646-4cd6-9d96-e2f2a9574ce6",
+                            "versionSpec": "1.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "unityEditorsPathMode": "unityHub",
+                            "customUnityEditorsPath": "",
+                            "unityProjectPath": "",
+                            "cmdArgs": "-buildTarget iOS -executeMethod ProjectBuildHelper.BuildAB AssetBundlesBuildSettings -quit"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "资源拷贝到StreamingAssets",
+                        "timeoutInMinutes": 0,
+                        "condition": "eq(1,2)",
+                        "task": {
+                            "id": "f357416a-9646-4cd6-9d96-e2f2a9574ce6",
+                            "versionSpec": "1.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "unityEditorsPathMode": "unityHub",
+                            "customUnityEditorsPath": "",
+                            "unityProjectPath": "",
+                            "cmdArgs": "-buildTarget iOS -executeMethod ProjectBuildHelper.CopyAB2StreamingAssets BuildSettings -quit"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "导出Xode工程",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "task": {
+                            "id": "f357416a-9646-4cd6-9d96-e2f2a9574ce6",
+                            "versionSpec": "1.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "unityEditorsPathMode": "unityHub",
+                            "customUnityEditorsPath": "",
+                            "unityProjectPath": "",
+                            "cmdArgs": "-buildTarget iOS -executeMethod ProjectBuildHelper.BuildXCode -quit"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "Xcode clean archive",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "task": {
+                            "id": "1e78dc1b-9132-4b18-9c75-0e7ecc634b74",
+                            "versionSpec": "4.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "actions": "clean archive",
+                            "configuration": "Release",
+                            "sdk": "iphoneos",
+                            "xcWorkspacePath": "Build/Unity-iPhone.xcworkspace",
+                            "scheme": "Unity-iPhone",
+                            "xcodeVersion": "default",
+                            "xcodeDeveloperDir": "",
+                            "packageApp": "true",
+                            "archivePath": "output/",
+                            "exportPath": "output/",
+                            "exportOptions": "plist",
+                            "exportMethod": "app-store",
+                            "exportTeamId": "G65A37Z49J",
+                            "exportOptionsPlist": "misc/ExportOptions.plist",
+                            "exportArgs": "",
+                            "signingOption": "default",
+                            "signingIdentity": "Distribution",
+                            "provisioningProfileUuid": "b11113ec-25b3-474f-860b-439a4f1f1a28",
+                            "teamId": "G65A37Z49J",
+                            "destinationPlatformOption": "default",
+                            "destinationPlatform": "",
+                            "destinationTypeOption": "simulators",
+                            "destinationSimulators": "iPhone 7",
+                            "destinationDevices": "",
+                            "args": "",
+                            "cwd": "",
+                            "outputPattern": "",
+                            "useXcpretty": "false",
+                            "publishJUnitResults": "false"
+                        }
+                    },
+                    {
+                        "environment": {},
+                        "enabled": true,
+                        "continueOnError": false,
+                        "alwaysRun": false,
+                        "displayName": "Publish to the App Store TestFlight track",
+                        "timeoutInMinutes": 0,
+                        "condition": "succeeded()",
+                        "task": {
+                            "id": "2e371150-da5e-11e5-83da-0943b1acc572",
+                            "versionSpec": "1.*",
+                            "definitionType": "task"
+                        },
+                        "inputs": {
+                            "authType": "ServiceEndpoint",
+                            "serviceEndpoint": "a84379f4-f49b-47f7-8de3-4465848117e4",
+                            "apiKeyId": "",
+                            "apiKeyIssuerId": "",
+                            "apitoken": "",
+                            "apiKeyInHouse": "false",
+                            "username": "",
+                            "password": "",
+                            "isTwoFactorAuth": "false",
+                            "appSpecificPassword": "",
+                            "fastlaneSession": "",
+                            "releaseTrack": "TestFlight",
+                            "distributeOnly": "false",
+                            "appIdentifier": "com.Orcas.ClashofCilvilizations",
+                            "appType": "iOS",
+                            "ipaPath": "output/_XcodeTaskExport_Unity-iPhone/ClashofCivilizations.ipa",
+                            "skipBinaryUpload": "false",
+                            "uploadMetadata": "false",
+                            "metadataPath": "",
+                            "uploadScreenshots": "false",
+                            "screenshotsPath": "",
+                            "shouldSubmitForReview": "false",
+                            "shouldAutoRelease": "false",
+                            "appBuildNumber": "",
+                            "releaseNotes": "",
+                            "shouldSkipWaitingForProcessing": "true",
+                            "shouldSkipSubmission": "true",
+                            "distributedToExternalTesters": "false",
+                            "externalTestersGroups": "DevTest",
+                            "appSpecificId": "1578836960",
+                            "teamId": "G65A37Z49J",
+                            "teamName": "Yuke Jiang",
+                            "installFastlane": "false",
+                            "fastlaneToolsVersion": "LatestVersion",
+                            "fastlaneToolsSpecificVersion": "",
+                            "fastlaneArguments": ""
+                        }
+                    }
+                ],
+                "name": "代理作业",
+                "refName": "Job_1",
+                "condition": "succeeded()",
+                "target": {
+                    "queue": {
+                        "_links": {
+                            "self": {
+                                "href": "https://tfs.fotoable.com/tfs/game2/_apis/build/Queues/149"
+                            }
+                        },
+                        "id": 149,
+                        "url": "https://tfs.fotoable.com/tfs/game2/_apis/build/Queues/149",
+                        "pool": null
+                    },
+                    "executionOptions": {
+                        "type": 0
+                    },
+                    "allowScriptsAuthAccessOption": false,
+                    "type": 1
+                },
+                "jobAuthorizationScope": 1
+            }
+        ],
+        "type": 1
+    },
+    "repository": {
+        "properties": {
+            "cleanOptions": "0",
+            "labelSources": "0",
+            "labelSourcesFormat": "$(build.buildNumber)",
+            "reportBuildStatus": "true",
+            "gitLfsSupport": "false",
+            "skipSyncSource": "false",
+            "checkoutNestedSubmodules": "false",
+            "fetchDepth": "0"
+        },
+        "id": "ee55a7da-6fb6-4a82-b270-c5f49bc7d00e",
+        "type": "TfsGit",
+        "name": "AFK",
+        "url": "https://tfs.fotoable.com/tfs/game2/AFK/_git/AFK",
+        "defaultBranch": "refs/heads/master",
+        "clean": "false",
+        "checkoutSubmodules": false
+    },
+    "processParameters": {},
+    "quality": 1,
+    "authoredBy": {
+        "displayName": "jiangyuke",
+        "url": "https://tfs.fotoable.com/tfs/game2/_apis/Identities/cc3a6138-e431-4f3b-9f4e-ef654b082115",
+        "_links": {
+            "avatar": {
+                "href": "https://tfs.fotoable.com/tfs/game2/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMTczOTE2OTgzNS03MDY1MDgyNTMtMTg4NjM3MzgxOS0xNjcz"
+            }
+        },
+        "id": "cc3a6138-e431-4f3b-9f4e-ef654b082115",
+        "uniqueName": "BEITA\\jiangyuke",
+        "imageUrl": "https://tfs.fotoable.com/tfs/game2/_apis/GraphProfile/MemberAvatars/win.Uy0xLTUtMjEtMTczOTE2OTgzNS03MDY1MDgyNTMtMTg4NjM3MzgxOS0xNjcz",
+        "descriptor": "win.Uy0xLTUtMjEtMTczOTE2OTgzNS03MDY1MDgyNTMtMTg4NjM3MzgxOS0xNjcz"
+    },
+    "drafts": [],
+    "queue": {
+        "_links": {
+            "self": {
+                "href": "https://tfs.fotoable.com/tfs/game2/_apis/build/Queues/149"
+            }
+        },
+        "id": 149,
+        "name": "MacMini",
+        "url": "https://tfs.fotoable.com/tfs/game2/_apis/build/Queues/149",
+        "pool": {
+            "id": 5,
+            "name": "MacMini"
+        }
+    },
+    "id": 27,
+    "name": "AFK-IOS 打包",
+    "url": "https://tfs.fotoable.com/tfs/game2/46d058db-4522-490f-9a3c-1a05d1fd1d10/_apis/build/Definitions/27?revision=93",
+    "uri": "vstfs:///Build/Definition/27",
+    "path": "\\",
+    "type": 2,
+    "queueStatus": 0,
+    "revision": 93,
+    "createdDate": "2021-07-30T11:40:55.310Z",
+    "project": {
+        "id": "46d058db-4522-490f-9a3c-1a05d1fd1d10",
+        "name": "AFK",
+        "url": "https://tfs.fotoable.com/tfs/game2/_apis/projects/46d058db-4522-490f-9a3c-1a05d1fd1d10",
+        "state": 1,
+        "revision": 582,
+        "visibility": 0,
+        "lastUpdateTime": "2021-03-23T08:35:15.667Z"
+    }
+}

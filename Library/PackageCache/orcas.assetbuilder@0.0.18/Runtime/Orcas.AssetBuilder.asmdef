@@ -1,0 +1,15 @@
+{
+    "name": "Orcas.AssetBuilder",
+    "references": [
+        "GUID:c87f4304c4aff9444aa382766f92410f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

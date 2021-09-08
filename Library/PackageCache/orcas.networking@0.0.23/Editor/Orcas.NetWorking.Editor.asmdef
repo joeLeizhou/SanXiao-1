@@ -1,0 +1,17 @@
+{
+    "name": "Orcas.NetWorking.Editor",
+    "references": [
+        "GUID:f2eac5d3d79bf55478fc0e2d811eeb99"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

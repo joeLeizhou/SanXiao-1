@@ -1,0 +1,19 @@
+{
+  "name": "orcas.data",
+  "displayName": "Orcas Data",
+  "version": "0.0.9",
+  "unity": "2019.4",
+  "description": "Replace this string with your own description of the package. This description appears in the Package Manager window when the user selects this package from the list. \n\nFor best results, use this text to summarize: \n▪ What the package does \n▪ How it can benefit the user \n\nNote: Special formatting characters are supported, including line breaks ('\\n') and bullets ('\\u25AA').",
+  "type": "library",
+  "dependencies": {
+    "orcas.core": "0.0.9",
+    "orcas.tolua": "0.0.10"
+  },
+  "samples": [
+    {
+      "displayName": "Example Sample",
+      "description": "Replace this string with your own description of the sample. Delete the Samples folder if not needed.",
+      "path": "Samples~/Example"
+    }
+  ]
+}

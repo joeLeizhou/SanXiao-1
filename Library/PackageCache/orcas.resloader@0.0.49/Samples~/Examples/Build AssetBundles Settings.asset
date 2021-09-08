@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40f8ae324af5dc640a19ba0c9a5535ad, type: 3}
+  m_Name: Build AssetBundles Settings
+  m_EditorClassIdentifier: 
+  PackID: 0
+  Roots:
+  - Resources/External
+  ExportRoot: AssetBundles/Hotfix/
+  VersionExport: 1
+  Version: 0.0.1
+  ExportAdditionalPack: 0
+  OldVersion: 
+  BuildMethods:
+  - OriginalExtension: .prefabs
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .png
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .jpg
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .psd
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .hdr
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .mat
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .unity
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .mp3
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .ogg
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .tga
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .wav
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .json
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .csv
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .ttf
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .physicmaterial
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .anim
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .playable
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .otf
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .controller
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .asset
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .bytes
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .tif
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .fbx
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .exr
+    BuildType: 0
+    BundleName: 
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .shader
+    BuildType: 2
+    BundleName: shaders
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .shadersubgraph
+    BuildType: 2
+    BundleName: shaders
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .shadergraph
+    BuildType: 2
+    BundleName: shaders
+    ReNameAsBinary: 0
+    ExportExtension: 
+  - OriginalExtension: .lua
+    BuildType: 1
+    BundleName: 
+    ReNameAsBinary: 1
+    ExportExtension: .luabundle
+  Options: 16
+  PreClearAssetBundlesName: 1
+  AfterClearAssetBundlesName: 1
+  PerClearTempDir: 1
